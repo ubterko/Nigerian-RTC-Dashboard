@@ -1,0 +1,38 @@
+.tooltip {
+    background-color: rgb(237, 237, 245, .8);
+    border: 1px solid rgb(187, 184, 184);
+    position: absolute;
+    display: none;
+    border-radius: .2rem;
+}
+
+.tooltip h4 {
+    padding: 0px;
+    margin: 1px 5px 0px 0px;
+    color: #050538;
+}
+
+.tooltip p {
+    margin: 10px 5px 5px 0px;
+    font-size: smaller;
+    color: #4e4848;
+}
+
+.svg-header {
+    position: absolute;
+    color: #929191fa;
+    top: 28%;
+    left: 30%;
+}
+
+.svg-header h4 {
+    margin: 0;
+}
+
+.svg-header p {
+    font-size: x-small;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0;
+    margin-top: 0;
+}

@@ -1,0 +1,102 @@
+.highlight h5, .highlight h4, .highlight h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.highlight h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: right;
+} 
+
+.highlight h5, .highlight h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+    
+}
+
+.involved-summary,
+    .injured-summary,
+    .deceased-summary
+    {
+        display: flex; 
+        justify-content: flex-start; 
+        align-items: center;
+        margin-left:5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 240px;            
+        height: 150px;
+    }
+
+.involved-summary {
+    color: #4C75F2;
+}
+
+.involved-summary:hover {
+    opacity: 1;
+    background-color: rgb(76, 117, 242, 0.1);
+    border-radius: 5px;
+}
+
+.involved-minigraph-path {
+    fill: none;
+    stroke: #4C75F2;
+    stroke-width: 2.5px;
+    display: inline;
+}
+
+.involved-minigraph-circle {
+    fill: #4C75F2;
+    animation: appear 1s ease-in-out forwards;
+    animation-delay: 5s
+}
+
+.injured-summary{
+    color: #ec0808fa;
+}
+
+.injured-summary:hover {
+    background-color: rgba(236, 9, 9, 0.1);
+    border-radius: 5px;
+}
+
+.injured-minigraph-path {
+    fill: none;
+    stroke: #ec0808fa;
+    stroke-width: 2.5px;
+    display: inline;
+}
+
+.injured-minigraph-circle {
+    fill: #ec0808fa;
+}
+
+.deceased-summary{
+    color: #929191fa;
+}
+
+.deceased-summary:hover {
+    opacity: 1;
+    background-color: rgba(146, 145, 145, 0.1);
+    border-radius: 5px;
+}
+
+.dec-minigraph-path {
+    fill: none;
+    stroke: #929191fa;
+    stroke-width: 2.5px;
+    display: inline;
+}
+
+.dec-minigraph-circle {
+    fill: #686363fa;
+}
+
+.injured-container, .dec-container, .involved-container
+    {   
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 100px;
+    }
